@@ -8,7 +8,7 @@ const port = 5000;
 app.use(cors());
 app.use(express.json());
 
-// Connexion  MongoDB
+// Connexion à MongoDB
 mongoose.connect(`mongodb://localhost:27017/subscriptions`)
     .then(() => console.log('Connecté à MongoDB'))
     .catch((err: Error) => console.error('Erreur de connexion à MongoDB:', err));
