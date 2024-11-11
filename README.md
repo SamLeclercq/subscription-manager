@@ -40,7 +40,7 @@ Une fois l'installation terminée, vous pouvez lancer le projet avec la commande
 
 npm start
 
-Cela démarrera à la fois l'interface React sur un serveur local et le serveur MongoDB (si vous utilisez une base locale).
+Cela démarrera à la fois l'interface React sur un serveur local et le serveur MongoDB en local.
 
 ## Fonctionnalités
 
