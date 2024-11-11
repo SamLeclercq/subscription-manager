@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #040a11;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; 
+    border-spacing: 0 10px; 
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left; 
+    background-color: #fff;
+    border-radius: 8px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+    position: sticky; 
+    top: 0; 
+}
+
+
+
+td {
+    transition: background-color 0.3s;
+}
+
+
+td.empty {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
+
+.price {
+    text-align: right; 
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px; 
+    background-color: #4a90e2; 
+    color: white;
+    border: none;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #357ABD; 
+}
+
+button:focus {
+    outline: none;
+}
+.button-container {
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
